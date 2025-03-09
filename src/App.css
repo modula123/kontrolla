@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #222831;
+  color: #f7f7f7;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+i {
+  font-style: italic;
+  font-size: 0.6rem;
+  line-height: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  border-right: 1px solid currentColor; /* Cursor effect */
+  animation: typing 20s steps(20, end) infinite alternate, blink 0.7s infinite;
+}
+
+/* Typing effect */
+@keyframes typing {
+  0% { width: 0; }
+  50% { width: 100%; } /* Fully typed */
+  100% { width: 0; } /* Delete text */
+}
+
+/* Cursor blinking effect */
+@keyframes blink {
+  50% { border-color: transparent; }
+}
