@@ -11,9 +11,11 @@ import AdminDashboard from "./admin/pages/Dashboard";
 const App = () => {
   return (
     <>
-    <h1>Platform comming live soon.. </h1>
-    <i>Please be patience as our team is currently working on it</i>
-      {/* <BrowserRouter>
+    
+      
+      {/*<h1>Platform comming live soon.. </h1>
+    <i>Please be patience as our team is currently working on it</i>*/}
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingLayout />}>
             <Route index element={<Landingpage />} />
@@ -24,7 +26,7 @@ const App = () => {
             <Route path="products" element={<AdminProducts />} />
           </Route>
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter> 
     </>
   );
 };
